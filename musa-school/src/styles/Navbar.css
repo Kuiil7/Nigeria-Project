@@ -1,0 +1,26 @@
+.navbar {
+    color: black;
+    border: 0;
+
+}
+
+a {
+    color: black;
+    font-weight: normal;
+    font-size: 1 em;
+}
+
+
+ 
+  .navbar-toggler:active {
+    background: white !important;
+    
+  }
+
+  .nav-btn1
+   {
+    outline: none !important;
+    box-shadow: none;
+  }
+   
+  
