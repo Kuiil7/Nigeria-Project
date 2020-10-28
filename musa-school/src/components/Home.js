@@ -1,5 +1,5 @@
 import React from "react";
-import front_bike from '../images/front_bike.png'
+import '../styles/Home.css'
 
 
 
@@ -11,15 +11,17 @@ function Home () {
 
  
 
-<div id="home1"  >
+<div id="front_1">
   
-<div >
-      <img src={front_bike}  />
-    </div>
+
+
+     
+     
+      <h1 id="duglu_title">Duglu School for the Deaf </h1>
+    
+</div>
 
    
-
-    </div>
 
 
   
