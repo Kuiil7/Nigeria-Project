@@ -1,6 +1,11 @@
 import React from "react";
 import '../styles/Students.css'
 import outside_1 from '../images/outside_1.jpg'
+import teach_2 from '../images/teach_2.jpg'
+import teach_1 from '../images/teach_1.jpg'
+
+import outside_2 from '../images/outside_2.jpg'
+
 
 
 
@@ -9,7 +14,7 @@ function Students () {
   
        
  
-<div id="carousel_section">
+
 <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
   <ol className="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -21,10 +26,13 @@ function Students () {
       <img src={outside_1} className="d-block w-100"  alt="First slide" />
     </div>
     <div  className="carousel-item">
-      <img src={outside_1} className="d-block w-100" alt="Second slide" />
+      <img src={outside_2} className="d-block w-100"  alt="Second slide" />
     </div>
-    <div className="carousel-item">
-      <img src={outside_1} className="d-block w-100" alt="Third slide" />
+    <div  className="carousel-item">
+      <img src={teach_1} className="d-block w-100" alt="Third slide" />
+    </div>
+    <div  className="carousel-item">
+      <img src={teach_2} className="d-block w-100"  alt="Third slide" />
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -36,7 +44,7 @@ function Students () {
     <span className="sr-only">Next</span>
   </a>
 </div>
-</div>
+    
 
   );
 
