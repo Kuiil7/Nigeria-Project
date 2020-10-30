@@ -6,7 +6,7 @@ import '../styles/Navbar.css'
 function Navbar() {
   return (
 
-    <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light"  aria-hidden="false"  role="navigation">
+    <nav className="container navbar fixed-top navbar-expand-lg navbar-light bg-light"  aria-hidden="false"  role="navigation">
 
     <a className="navbar-brand " href="home">Duglu School for the Deaf</a>
     <button className="nav-btn1 navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -11,7 +11,7 @@ function Home () {
 
  
 
-<div id="front_1">
+<div id="front_1" >
   
 
 
